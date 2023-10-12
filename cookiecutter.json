@@ -4,8 +4,6 @@
     "project_name": "FGA prototype",
     "repo_name": "python-mytool",
     "pypi_username": "{{ cookiecutter.github_username }}",
-    "script_name": "my-tool",
-    "package_name": "my_tool",
     "project_short_description": "Create an event driven governance solution, that provides data cataloguing, profiling and data quality processing after ingestion.",
     "release_date": "2023-10-15",
     "year": "2023",
