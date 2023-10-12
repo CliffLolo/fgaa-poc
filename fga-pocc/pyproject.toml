@@ -1,0 +1,32 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fga-poc"
+version = "1.0.0"
+description = "An event driven governance solution, that provides data cataloguing, profiling and data quality processing after ingestion."
+readme = "README.md"
+authors = [{ name = "Ghana BigSpark"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["data cataloguing", "profiling", "data quality"]
+dependencies = [
+    "feedparser >= 5.2.0",
+    "html2text",
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest", "typer"]
+
+[project.urls]
+Homepage = "https://github.com/itsbigspark/fga_poc"
+
+[project.scripts]
+fga-poc = "cli.src.cli:main"
