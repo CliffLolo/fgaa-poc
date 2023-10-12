@@ -1,13 +1,1 @@
-{
-    "full_name": "Cliff",
-    "github_username": "Cliff",
-    "project_name": "FGA prototype",
-    "repo_name": "python-mytool",
-    "pypi_username": "{{ cookiecutter.github_username }}",
-    "project_short_description": "Create an event driven governance solution, that provides data cataloguing, profiling and data quality processing after ingestion.",
-    "release_date": "2023-10-15",
-    "year": "2023",
-    "version": "0.1.0",
-    "open_source_license": "MIT license"
 
-}
